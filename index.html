@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linkando o css externo -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- linkando javascript -->
+    <script src="./script.js" defer></script>
+    <title>Pixels Art</title>
+  </head>
+  <body>
+    <!-- titulo do projeto com tag header-->
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <!-- regiao onde ficará as grids e as paletas de cores -->
+    <main>
+      <section id="color-palette"></section>
+      <div>
+        <button id="button-random-color">Cores aleatórias</button>
+      </div>
+      <div>
+        <button id="clear-board">Limpar</button>
+      </div>
+      <div>
+        <input
+          type="number"
+          id="board-size"
+          placeholder="Tamanho da tabela"
+          min="1"
+          max="50"
+        />
+        <button id="generate-board">VQV</button>
+      </div>
+      <section id="pixel-board"></section>
+    </main>
+    <footer>
+      <p>Pixels Art</p>
+    </footer>
+  </body>
+</html>
